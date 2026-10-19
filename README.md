@@ -1,3 +1,4 @@
+# This is a dork from
 # The Sesame Robot Project 
 ___
 ![License](https://img.shields.io/badge/License-APACHE2.0-yellow)
@@ -29,10 +30,15 @@ To build a sesame robot, you will need basic soldering skills, $50-60 in hardwar
 This repository contains the CAD design files, STL files, build and wiring guides, and the base/expanded firmware for the ESP32-based controller. 
 There is also some included debugging firmware that may be helpful in getting your Sesame up and running.
 
+This Fork was made because i want to change the Display and also add some sensors.
+Also the Controllet will be changes and Software will be ported
+3D printed Hardware and use of Servos will keep.
+
 ## Features
 
 *   **Quadruped Design:** Uses 8 servo motors (2 per leg) to achieve roughly 8 total degrees of freedom.
 *   **Emotive Display:** Features a 128x64 OLED screen acting as a reactive face that syncs with movement.
+    *** New Display  - same functionality 
 *   **Fully Printable:** Designed entirely for 3D printing in PLA with minimal supports.
 *   **Network Connectivity:** Connect to your WiFi network for remote control and API access.
 *   **JSON API:** RESTful API for programmatic control from Python, JavaScript, and more.
